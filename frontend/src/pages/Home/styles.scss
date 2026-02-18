@@ -1,0 +1,43 @@
+.copyConnectionID {
+  cursor: pointer;
+  color: #B3475E;
+}
+
+.copyConnectionID:hover {
+  cursor: pointer;
+  color: #B3475E;
+}
+
+.form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #FFF;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+.button {
+  background-color: #B3475E;
+  border-color: #B3475E;
+  color: white;
+}
+
+// Tablet and below
+@media (max-width: 768px) {
+    .form {
+        padding: 24px;
+        margin: 24px auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+// Mobile
+@media (max-width: 576px) {
+    .form {
+        padding: 16px;
+        margin: 16px 12px;
+        border-radius: 6px;
+    }
+}

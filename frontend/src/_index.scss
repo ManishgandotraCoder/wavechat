@@ -1,0 +1,37 @@
+// Breakpoints (match common device widths)
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fdebeb;
+}
+
+@media (max-width: $breakpoint-sm) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.margin-8 {
+  margin: 8px;
+}
