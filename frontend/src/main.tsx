@@ -9,7 +9,7 @@ import Routes from './pages';
 
 import './_index.scss';
 import ConfigProvider from 'antd/es/config-provider';
-
+console.log("in")
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
